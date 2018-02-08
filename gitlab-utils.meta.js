@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Gitlab useful addons
 // @namespace    http://gitlab.ccrowd.in/
-// @version      0.0.9
+// @version      0.0.10
 // @description  some useful things for gitlab
 // @author       Ilya Gulya
 // @match        https://git.i20.biz/*
 // @grant        none
-// @downloadURL  https://github.com/IlyaGulya/gitlab-utils-userscript/raw/master/gitlab-utils.user.js
-// @updateURL    https://github.com/IlyaGulya/gitlab-utils-userscript/raw/master/gitlab-utils.meta.js
+// @downloadURL  https://rawgit.com/IlyaGulya/gitlab-utils-userscript/master/gitlab-utils.user.js
+// @updateURL    https://rawgit.com/IlyaGulya/gitlab-utils-userscript/master/gitlab-utils.meta.js
 // ==/UserScript==
