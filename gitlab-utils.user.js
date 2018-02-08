@@ -71,8 +71,8 @@ function replaceTaskIdsWithLinks() {
             data.node.innerText.replace(data.matchFull, "");
             const titleText = data.node.innerText.replace(data.matchFull, "");
             const titleTextElement = $(`<span>${titleText}</span>`);
-            data.node.appendChild(link);
-            data.node.appendChild(titleText);
+            link.appendTo(data.node);
+            titleTextElement.appendTo(data.node);
         })
 }
 
