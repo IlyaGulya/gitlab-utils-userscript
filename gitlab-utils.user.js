@@ -68,9 +68,9 @@ function replaceTaskIdsWithLinks() {
         })
         .forEach(data => {
             const link = $(`<a href="https://pm.i20.biz/issues/${data.matchDigits}">${data.matchFull}</a>`);
-            data.node.innerText.replace(data.matchFull, "");
             const titleText = data.node.innerText.replace(data.matchFull, "");
             const titleTextElement = $(`<span>${titleText}</span>`);
+            data.node.innerText = "";
             link.appendTo(data.node);
             titleTextElement.appendTo(data.node);
         })
