@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gitlab useful addons
 // @namespace    http://gitlab.ccrowd.in/
-// @version      0.0.8-1
+// @version      0.0.9
 // @description  some useful things for gitlab
 // @author       Ilya Gulya
 // @match        https://git.i20.biz/*
