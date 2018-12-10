@@ -6,8 +6,8 @@
 // @author       Ilya Gulya
 // @match        https://git.i20.biz/*
 // @grant        none
-// @downloadURL  https://rawgit.com/IlyaGulya/gitlab-utils-userscript/master/gitlab-utils.user.js
-// @updateURL    https://rawgit.com/IlyaGulya/gitlab-utils-userscript/master/gitlab-utils.meta.js
+// @downloadURL  https://cdn.jsdelivr.net/gh/IlyaGulya/gitlab-utils-userscript@master/gitlab-utils.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/IlyaGulya/gitlab-utils-userscript@master/gitlab-utils.meta.js
 // ==/UserScript==
 
 function join(arr, char) {
